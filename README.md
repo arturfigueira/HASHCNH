@@ -39,7 +39,7 @@ Usually it's installed at C:\Program Files\Grid-Tools\FastDataMasker
 
 Download a `jar` from one of the available project's [Releases](https://github.com/arturfigueira/HASHCNH/releases) page. Add this `jar` to the `custom` folder from the previous step.
 
-Modify the provided the *custom_config.xml* and add the xml below XML inside the `<functions>` tag.
+Modify the provided *custom_config.xml* and add the xml below inside the `<functions>` tag.
 
 ```xml
 <function>
