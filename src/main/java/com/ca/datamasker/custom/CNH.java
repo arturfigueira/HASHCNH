@@ -48,17 +48,6 @@ public class CNH {
         return Integer.toString(modOfTotalSum);
     }
 
-/*
-    private String calculateCheckDigit(final String number){
-        int columnsSum = 0;
-        for(int i=0; i< number.length(); i++){
-            final int numericValue = Character.getNumericValue(number.charAt(i));
-            columnsSum += (INITIAL_WEIGHT + i) * numericValue;
-        }
-        final int modOfTotalSum = mod11(columnsSum);
-        return Integer.toString(modOfTotalSum);
-    }*/
-
     private static int mod11(final int value){
         int mod11 = value % 11;
         return (mod11 > 9) ? 0 : mod11;
